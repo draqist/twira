@@ -9,6 +9,7 @@
     "firebase": "^9.4.0",
     "firebase-tools": "^9.22.0",
     "framer-motion": "^5.3.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build  --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
