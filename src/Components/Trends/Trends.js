@@ -3,8 +3,8 @@ import './trends.scss'
 
 const Trends = () => {
   return (
-    <div>
-      
+    <div className = 'trends'>
+      a
     </div>
   )
 }

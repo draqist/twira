@@ -1,15 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './sroutes.scss'
 import PropTypes from 'prop-types';
 
 const Sroutes = ({RoutImg, Route }) => {
   return (
-    <div>
-      <Link to = '/' className = 'sroutes'>
+    <div className = 'hover-ctn'>
+      <div className = 'hover'>
+        <NavLink to = '/' className = 'sroutes'>
           <img src={ RoutImg } alt = {`${RoutImg}`} />
-        <h3> { Route}</h3>
-        </Link>
+          <h3> { Route}</h3>
+        </NavLink>
+      </div>
     </div>
   )
 }

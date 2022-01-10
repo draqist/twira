@@ -1,13 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Profilepage from './Pages/Profile Page/Profilepage'
+import Homepage from './Pages/Homepage/Homepage';
+// import Profilepage from './Pages/Profile Page/Profilepage'
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <Routes>
-        <Route path='/' element={<Profilepage />}/>
+        <Route path='/' element={<Homepage />}/>
       </Routes>
     </div>
   );
