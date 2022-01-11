@@ -4,8 +4,9 @@ import './happening.scss'
 const Happening = () => {
   return (
     <div className = 'happening'>
+      
       <div>
-        
+        Happening
       </div>
     </div>
   )
