@@ -1,4 +1,14 @@
 .search{
-  width: 21.875rem;
-  height: 2.5rem
+  width: 23rem;
+  height: 2.75rem;
+  outline: none;
+  background-color:#202327;
+  border: none;
+  border-radius: 2rem;
+  margin-top: 6px;
+}
+::placeholder{
+  padding-left: .75rem;
+  font-size: 1rem;
+  font-weight: 400;
 }

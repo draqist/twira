@@ -1,6 +1,6 @@
-.happening{
-  width:20.875rem;
-  height: 28.75rem;
+.follow{
+  width:21.875rem;
+  // height: 28.75rem;
   background-color: #202327;
   border-radius: .75rem;
   margin-left: 1.875rem;
@@ -10,8 +10,7 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content:space-between;
-  padding:0 1rem;
+  padding-left: 1rem;
   h3{
     font-size: 20px;
     font-weight: 800;

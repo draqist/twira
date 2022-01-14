@@ -7,6 +7,7 @@ import Profile from '../Icons/Profile.svg'
 import More from '../Icons/More.svg'
 import Notification from '../Icons/Notifications.svg'
 import Message from '../Icons/Messages.svg'
+import Settings from '../Icons/Icons_Settings.svg'
 
 
-export { Twitter, Bookmark, Explore, Home, List, Profile, More, Notification, Message}
+export { Twitter, Bookmark, Explore, Home, List, Profile, More, Notification, Message, Settings}

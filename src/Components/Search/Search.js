@@ -3,9 +3,7 @@ import './search.scss'
 
 const Search = () => {
   return (
-    <div className = 'search'>
-      <input type = 'search' placeholder = 'Search Twitter' />
-    </div>
+      <input type = 'search' placeholder = 'Search Twitter' className = 'search' />
   )
 }
 

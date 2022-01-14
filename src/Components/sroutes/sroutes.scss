@@ -1,9 +1,9 @@
 .hover{
-  width: 80%;
+  width: calc(100% - 1.5rem);
+  padding-left: 8px;
   :hover{
-    background-color: #e6e6e65e;
-    border-radius: 2.25rem;
-    width: 100%;
+    background-color: #4e5153cb;
+    border-radius: 3rem;
     padding: 0 1rem;
   }
   .sroutes{
@@ -20,7 +20,9 @@
       margin: .6rem 0 ;
       font-weight: 400;
       padding-left: 1.5rem;
-  
+      :hover{
+        background-color: trs;
+      }
     }
   }
 }
