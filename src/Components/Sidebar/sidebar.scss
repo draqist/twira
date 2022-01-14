@@ -1,11 +1,9 @@
 .sidebar{
   width: 19.875rem;
   background-color: black;
-  border-right: 2px solid #5c5f61;
+  border-right: 1px solid #5c5f61;
   height: 100%;
   padding-top: 1rem;
-  place-content: flex-start;
-  position: fixed;
   .inner{
     margin-left:4.375rem ;
     display: flex;

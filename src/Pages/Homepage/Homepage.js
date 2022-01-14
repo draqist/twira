@@ -7,9 +7,15 @@ import './homepage.scss'
 const Homepage = () => {
   return (
     <div className='homepage'>
-      <Sidebar />
-      <Feed />
-      <Trends/>
+      <div style = {{}}>
+        <Sidebar />
+      </div>
+      <div>
+        <Feed />
+      </div>
+      <div>
+        <Trends/>
+      </div>
     </div>
   )
 }
