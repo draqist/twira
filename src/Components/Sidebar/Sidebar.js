@@ -9,10 +9,10 @@ const Sidebar = () => {
   const [display, setDisplay] = useState('block')
   const screenSize = window.innerHeight;
   useEffect(() => {
-    if (screenSize < 1025) {
+    if (screenSize >= 1025) {
     setDisplay('none')
   }
-  },[screenSize])
+  },[])
   return (
     <section className = 'sidebar'>
       <div className = 'inner'>
