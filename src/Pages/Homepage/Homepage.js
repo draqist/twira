@@ -7,13 +7,13 @@ import './homepage.scss'
 const Homepage = () => {
   return (
     <div className='homepage'>
-      <div style = {{}}>
+      <div className = 's' >
         <Sidebar />
       </div>
-      <div>
+      <div className = 'f'>
         <Feed />
       </div>
-      <div>
+      <div className = 't'>
         <Trends/>
       </div>
     </div>

@@ -1,6 +1,32 @@
 .homepage{
-  display: flex;
-  justify-content: space-between;
-  // align-items: center;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1.935fr 1fr;
+  // gap: 0;
   height: 100%;
+  width: 100%
+}
+@media screen and (min-width: 1440px) {
+  .homepage{
+    grid-template-columns: 1fr 2.15fr 1fr;
+  }
+  .s{
+    width: 100%;
+  }
+  .f{
+    width: 100%;
+  }
+  .t{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 2040px){
+  .homepage{
+    grid-template-columns: 2fr 11fr 3fr;
+  }
+}
+@media screen and (max-width: 1024px){
+  .homepage{
+    grid-template-columns: .95fr 7.35fr 1fr;
+  }
 }

@@ -4,6 +4,7 @@
   border-right: 1px solid #5c5f61;
   height: 100%;
   padding-top: 1rem;
+  position: fixed;
   .inner{
     margin-left:4.375rem ;
     display: flex;
@@ -11,5 +12,14 @@
   }
   .routes{
     padding-top: .5rem;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .sidebar{
+    width:5rem;
+    .inner{
+      margin: 0;
+      align-items: center;
+    }
   }
 }

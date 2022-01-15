@@ -1,6 +1,5 @@
 .hover{
   width: calc(100% - 1.5rem);
-  padding-left: 8px;
   :hover{
     background-color: #4e5153cb;
     border-radius: 3rem;
@@ -23,6 +22,14 @@
       :hover{
         background-color: trs;
       }
+    }
+  }
+}
+@media screen and (max-width: 1025px) {
+  .hover{
+    padding: 1rem ;
+    h3{
+      display: none;
     }
   }
 }
