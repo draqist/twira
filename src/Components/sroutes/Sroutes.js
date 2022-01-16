@@ -18,11 +18,13 @@ const Sroutes = ({ RoutImg, Route, link, display }) => {
 }
 Sroutes.defaultProps = {
   Route: 'Routes',
-  RoutImg: 'Img'
+  RoutImg: 'Img',
+  display: 'block'
 }
 Sroutes.propTypes = {
   Route: PropTypes.string,
   RoutImg: PropTypes.string,
+  display: PropTypes.string
 }
 
 export default Sroutes

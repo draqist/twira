@@ -1,11 +1,12 @@
 .trends{
   width: 27rem;
+  padding: 0 .5rem;
   background-color: black;
   border-left: 1px solid #5c5f61;
   height: 100%;
 }
 @media screen and (max-width: 1024px){
   .trends{
-    width: 19.5rem;
+    width: 20rem;
   }
 }

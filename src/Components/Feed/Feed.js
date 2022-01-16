@@ -2,7 +2,7 @@ import React from 'react'
 import './feed.scss'
 import {star,profilePic} from '../../Helpers/Icons'
 
-const Feed = ({ }) => {
+const Feed = ( ) => {
   return (
     <div className='feed'>
       <header className='feedHeader'>
@@ -13,7 +13,7 @@ const Feed = ({ }) => {
         <img src={ profilePic } alt='feedImage' className = 'pp' />
         <section>
           <div className='tweeter'>
-            <h5></h5>
+            <h4> What's happening?</h4>
             <span></span>
           </div>
           <div className = 'tweet'></div>

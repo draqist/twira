@@ -1,24 +1,22 @@
 .follow{
-  width:21.875rem;
-  // height: 28.75rem;
+  // width:21.875rem;
   background-color: #202327;
   border-radius: .75rem;
-  margin-left: 1.875rem;
-  margin-top: 1rem;
+  margin:1rem auto 0 ;
   color: white;
   height: 2.625rem;
   text-align: center;
   display: flex;
   align-items: center;
-  padding-left: 1rem;
   h3{
     font-size: 20px;
+    padding-left: .5rem;
     font-weight: 800;
   }
 }
 @media screen and (max-width: 1025px) {
-  .follow{
-    width: 90%;
-    margin-left: 8px;
-  }
+  // .follow{
+  //   // width: 90%;
+  //   // margin-left: 8px;
+  // }
 }

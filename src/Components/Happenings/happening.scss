@@ -1,17 +1,16 @@
 .happening{
-  width:20.875rem;
+  // width:20.875rem;
   height: 28.75rem;
   background-color: #202327;
   border-radius: .75rem;
-  margin-left: 1.875rem;
-  margin-top: 1rem;
+  margin:1rem auto 0;
   color: white;
   height: 2.625rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content:space-between;
-  padding:0 1rem;
+  padding:0 .5rem;
   h3{
     font-size: 20px;
     font-weight: 800;
@@ -21,8 +20,8 @@
   }
 }
 @media screen and (max-width: 1025px) {
-  .happening{
-    width: 85%;
-    margin-left: 8px;
-  }
+  // .happening{
+  //   // width: 85%;
+  //   // margin:1rem auto 0;
+  // }
 }

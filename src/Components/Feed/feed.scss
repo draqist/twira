@@ -10,30 +10,33 @@
     padding: 0 1rem;
   }
   .mainFeed{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: .5fr 4fr;
     padding: 1rem;
+    place-content: center;
     .pp{
-      width: 3.125rem;
-      height: 3.125rem;
+      width: 3.75rem;
+      height: 3.75rem;
       border-radius: 50%;
     }
     .tweeter{
-      font-weight: 700;
-      font-size: 1rem;
-      color: #D9D9D9;
-      span{
-        font-weight:300;
+      h5{
+        font-weight: 700;
+        font-size: 1rem;
+        color: #D9D9D9;
+      }
+      h4{
+        font-weight:400;
         color: #6E767D;
+        font-size: 1rem;
       }
     }
     .tweet{
       font-weight: 400;
       font-size: 1rem;
     }
-    .interactions{
+    // .interactions{
 
-    }
+    // }
   }
 }

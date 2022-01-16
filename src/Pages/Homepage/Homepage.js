@@ -1,14 +1,15 @@
 import React from 'react'
-import Sidebar from '../../Components/Sidebar/Sidebar'
 import Feed from '../../Components/Feed/Feed'
 import Trends from '../../Components/Trends/Trends'
 import './homepage.scss'
+import { useLocation } from 'react-router-dom'
 
 const Homepage = () => {
+  const location = useLocation()
+  console.log(location)
   return (
     <div className='homepage'>
       <div className = 's' >
-        <Sidebar />
       </div>
       <div className = 'f'>
         <Feed />
