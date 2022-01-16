@@ -14,6 +14,11 @@
   h3{
     font-size: 20px;
     font-weight: 800;
-
+  }
+}
+@media screen and (max-width: 1025px) {
+  .follow{
+    width: 90%;
+    margin-left: 8px;
   }
 }

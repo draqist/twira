@@ -12,7 +12,7 @@ const Sidebar = () => {
     if (screenSize >= 1025) {
     setDisplay('none')
   }
-  },[])
+  })
   return (
     <section className = 'sidebar'>
       <div className = 'inner'>
