@@ -7,12 +7,14 @@ const Sroutes = ({ RoutImg, Route, link, display }) => {
   
   return (
     <div className = 'hover'>
-      <Link to = {link} className = 'sroutes'>
-        <img src={ RoutImg } alt = {`${RoutImg}`} />
+      <div className = 'hov'>
+        <Link to = {link} className = 'sroutes'>
+        <img src={ RoutImg } alt = {`${RoutImg}`} className = 'routimage' />
         <div style={{display: display} }>
           <h3> { Route}</h3>
         </div>
       </Link>
+      </div>
     </div>
   )
 }

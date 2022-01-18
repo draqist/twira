@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <section className = 'sidebar'>
       <div className = 'inner'>
-      <img src={Twitter} alt='twitter-logo' style = {{'height': '2rem', 'width': '24px'}} />
+      <img src={Twitter} alt='twitter-logo' style = {{'height': '2rem', 'width': '2rem'}} />
         <div className = 'routes'>
           <Sroutes RoutImg={ Home } Route = {'Home'} link = {'/'} display = {display}/>
           <Sroutes RoutImg={ Explore } Route = {'Explore'} link = {'/explore'} display = {display}/>

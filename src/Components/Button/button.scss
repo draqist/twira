@@ -1,5 +1,5 @@
 .btn{
-  width: 14rem;
+  width: 15rem;
   height: 3.25rem;
   text-align: center;
   background-color:#1D9BF0 ;
@@ -7,7 +7,8 @@
   border-radius: 3.25rem;
   font-size: 1rem;
   font-weight: 600;
-  margin-top: 6px;
+  margin-top: 8px;
+  margin-left: -1.5rem;
 }
 @media screen and (max-width: 1024px){
   .btn{
