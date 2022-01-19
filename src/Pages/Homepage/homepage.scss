@@ -29,3 +29,11 @@
     overflow: hidden;
   }
 }
+@media screen and (max-width: 768px) {
+  .homepage{
+    grid-template-columns: .95fr 7.35fr ;
+    .f{
+      height: 100%;
+    }
+  }
+}

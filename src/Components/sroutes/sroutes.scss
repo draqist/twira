@@ -41,3 +41,11 @@
   .sroutes :hover{
     background-color: transparent;
   }
+  @media screen and (max-width: 768px) {
+    .routimage{
+      width: 2rem;
+    }
+    .hover{
+      padding: 1.25rem;
+    }
+  }
