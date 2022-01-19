@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, } from 'react-router-dom';
 import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Bookmark from './Pages/Bookmark/Bookmark';
@@ -6,11 +6,12 @@ import Explore from './Pages/Explore/Explore';
 import Homepage from './Pages/Homepage/Homepage';
 import List from './Pages/List/List';
 import Notification from './Pages/Notification/Notification';
+import {TwitterData} from './data';
 
 function App() {
-  const location = useLocation()
-  console.log(location)
+  TwitterData()
   return (
+
     <div className="App">
       <Sidebar/>
       <Routes>
