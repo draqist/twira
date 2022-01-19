@@ -1,19 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, {useState} from 'react'
+import { NavLink } from 'react-router-dom'
 import './sroutes.scss'
 import PropTypes from 'prop-types';
 
-const Sroutes = ({ RoutImg, Route, link, display }) => {
+const Sroutes = ({ ActiveRout, RoutImg, Route, link, display }) => {
+  const [active, setActive] = useState(false)
   
   return (
     <div className = 'hover'>
       <div className = 'hov'>
-        <Link to = {link} className = 'sroutes'>
-        <img src={ RoutImg } alt = {`${RoutImg}`} className = 'routimage' />
+        <NavLink to = {link} className = 'sroutes' style = {({isActive}) => {isActive ? setActive(true): setActive(false)}}>
+        <img src={ active? ActiveRout: RoutImg } alt = {`${RoutImg}`} className = 'routimage' />
         <div style={{display: display} }>
           <h3> { Route}</h3>
         </div>
-      </Link>
+      </NavLink>
       </div>
     </div>
   )
