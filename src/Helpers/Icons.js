@@ -17,8 +17,9 @@ import NotificationActive from '../Icons/Notifications-Fill.svg'
 import ListActive from '../Icons/Lists-Fill.svg'
 import ProfileActive from '../Icons/Profile-Fill.svg'
 import MessageActive from '../Icons/Messages-Fill.svg'
+import Search from '../Icons/Icons_Search.svg'
 
 
 
 
-export { Twitter, Bookmark, Explore, Home, List, Profile, More, Notification, Message, Settings, star,profilePic,HomeActive, BookmarkActive, NotificationActive, ListActive, ExploreActive,ProfileActive, MessageActive}
+export { Twitter, Bookmark, Explore, Home, List, Profile, More, Notification, Message, Settings, star,profilePic,HomeActive, BookmarkActive, NotificationActive, ListActive, ExploreActive,ProfileActive, MessageActive, Search}

@@ -1,0 +1,16 @@
+.bottomBar{
+  height: 3rem;
+  width: 100%;
+  border-top: 1px solid #5c5f61;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  a{
+    outline: none;
+  }
+  .bnI{
+    padding: 6px;
+    width: 1.5rem;
+  }
+}

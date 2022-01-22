@@ -37,6 +37,9 @@
   .hov :hover{
   background-color: #f7fafd13;
   border-radius: 3rem;
+  transition-property: background-color;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
   }
   .sroutes :hover{
     background-color: transparent;
