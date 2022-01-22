@@ -7,7 +7,7 @@ const Feed = ( ) => {
     <div className='feed'>
       <header className='feedHeader'>
         <h3>Home</h3>
-        <img src={star} alt = 'star'/>
+        <img src={star} alt = 'star' className = 'feedImg'/>
       </header>
       <main className='mainFeed'>
         <img src={ profilePic } alt='feedImage' className = 'pp' />

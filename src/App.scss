@@ -1,13 +1,33 @@
 .App {
   text-align: center;
   height: 100vh;
+  width: 100%;
   background-color: black;
   font-family: Helvetica, Arial, sans-serif;
-
+  .appBottom{
+    display: none;
+    width: 100%;
+  }
 }
 a{
   text-decoration: none;
 }
 button{
   border: none;
+}
+@media screen and (max-width: 420px){
+  .App{
+    .appSide{
+      display: none
+    }
+    .appRoutes{
+      width: 100%;
+    }
+    .appBottom{
+      display: block;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+  }
 }

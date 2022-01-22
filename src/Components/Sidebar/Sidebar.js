@@ -23,7 +23,7 @@ const Sidebar = () => {
           <Sroutes ActiveRout = {HomeActive} RoutImg={ Home } Route = {'Home'} link = {'/'} display = {display}/>
           <Sroutes ActiveRout = {ExploreActive} RoutImg={ Explore } Route = {'Explore'} link = {'/explore'} display = {display}/>
           <Sroutes ActiveRout = {NotificationActive} RoutImg={ Notification } Route = {'Notifications'} link = {'/notifications'} display = {display}/>
-          <Sroutes ActiveRout = {MessageActive} RoutImg={ Message } Route = {'Messages'} link = {'/messages'} display = {display}/>
+          <Sroutes ActiveRout = {MessageActive} RoutImg={ Message } Route = {'Messages'} link = {'/'} display = {display}/>
           <Sroutes ActiveRout = {BookmarkActive} RoutImg={ Bookmark } Route = {'Bookmarks'} link = {'/bookmarks'} display = {display}/>
           <Sroutes ActiveRout = {ListActive} RoutImg={ List } Route = {'Lists'} link = {'/lists'} display = {display}/>
           <Sroutes ActiveRout = {ProfileActive} RoutImg={ Profile } Route = {'Profile'} link = {'/profile'} display = {display}/>

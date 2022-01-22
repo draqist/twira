@@ -6,7 +6,6 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    // border-bottom: 1px solid #5c5f61;
     padding: 0 1rem;
   }
   .mainFeed{
@@ -20,6 +19,7 @@
       border-radius: 50%;
     }
     .tweeter{
+      margin-left: 1rem;
       h5{
         font-weight: 700;
         font-size: 1rem;
@@ -35,8 +35,19 @@
       font-weight: 400;
       font-size: 1rem;
     }
-    // .interactions{
-
-    // }
   }
+}
+@media screen and (max-width: 768px) {
+  .feed{
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .pp{
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
 }

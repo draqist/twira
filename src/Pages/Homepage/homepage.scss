@@ -28,4 +28,28 @@
     grid-template-columns: .95fr 7.35fr 1fr;
     overflow: hidden;
   }
+  .f{
+    height: 100%;
+    // width: 100vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homepage{
+    grid-template-columns: .95fr 7.35fr ;
+    .f{
+      height: 100%;
+    }
+  }
+}
+@media screen and (max-width: 420px){
+  .s{
+    display: none
+  }
+  .t{
+    display: none
+  }
+  .f{
+    width: 100vw;
+    // width: 100%;
+  }
 }
