@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Feed from '../../Components/Feed/Feed'
 import Trends from '../../Components/Trends/Trends'
 import './homepage.scss'
-import axios from 'axios'
 
 const Homepage = () => {
   return (
@@ -12,7 +11,7 @@ const Homepage = () => {
       <div className = 'f'>
         <Feed />
       </div>
-      <div className = 't'>
+      <div className = 'trendBlock'>
         <Trends/>
       </div>
     </div>

@@ -8,33 +8,33 @@ import Homepage from './Pages/Homepage/Homepage';
 import List from './Pages/List/List';
 import Notification from './Pages/Notification/Notification';
 import SignUp from './Pages/SignUp/SignUp';
-import axios from 'axios'
 import Profilepage from './Pages/Profile Page/Profilepage';
 
 function App() {
-  let data = JSON.stringify({
-    "method": "get",
-    "url": "https://api.twitter.com/2/users/by/username/ose4g1",
-    "Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAAIn6VwEAAAAAVh1PZAn%2F7j5kb0UmQih1v%2BaOGGs%3D87hlr6kZh8XJ1ZEti1q10Ez6KMutMLh36cgaUkReT3NiJ0VKev"
-});
+//   const {REACT_APP_BEARER_TOKEN} = process.env
+//   let data = JSON.stringify({
+//     "method": "get",
+//     "url": "https://api.twitter.com/2/users/by/username/ose4g1",
+//     "Authorization": `${REACT_APP_BEARER_TOKEN}`
+// });
 
-let config = {
-		method: 'post',
-		url: 'https://ose4g-redirect-api.herokuapp.com',
-  headers: {
-    'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAIn6VwEAAAAAEME28FgTGAAqbzKYnBfnfWRJOwY%3D6AOoqlkOihsEEBY7Ry8VlhDjS2slvnIVDD592gl1JcwVcrjhFC',
-    'Content-Type': 'application/json'
-  },
-		data : data
-};
+// let config = {
+// 		method: 'post',
+// 		url: 'https://ose4g-redirect-api.herokuapp.com',
+//   headers: {
+//     'Authorization': `${REACT_APP_BEARER_TOKEN}`,
+//     'Content-Type': 'application/json'
+//   },
+// 		data : data
+// };
 
-axios(config)
-.then((response) => {
-		console.log(JSON.stringify(response.data));
-})
-.catch((error) => {
-		console.log(error);
-});
+// axios(config)
+// .then((response) => {
+// 		console.log(JSON.stringify(response.data));
+// })
+// .catch((error) => {
+// 		console.log(error);
+// });
   return (
     <div className="App">
       <div className = 'appSide'>
