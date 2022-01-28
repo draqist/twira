@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 1025px) {
   .hover{
-    padding: 1rem;
+    padding: 1rem 0;
   }
 }
   .hov :hover{
@@ -49,6 +49,6 @@
       width: 2rem;
     }
     .hover{
-      padding: 1.25rem;
+      padding: 1.25rem 0;
     }
   }
