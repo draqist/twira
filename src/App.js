@@ -8,7 +8,6 @@ import Homepage from './Pages/Homepage/Homepage';
 import List from './Pages/List/List';
 import Notification from './Pages/Notification/Notification';
 import SignUp from './Pages/SignUp/SignUp';
-import axios from 'axios'
 import Profilepage from './Pages/Profile Page/Profilepage';
 
 function App() {

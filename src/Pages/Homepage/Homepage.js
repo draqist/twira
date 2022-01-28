@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Feed from '../../Components/Feed/Feed'
 import Trends from '../../Components/Trends/Trends'
 import './homepage.scss'
