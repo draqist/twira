@@ -1,0 +1,39 @@
+.profile{
+  position: absolute;
+  left: 20rem;
+  display: flex;
+  justify-content:space-evenly;
+  // width: 100%;
+}
+.smfin{
+  width: 100%;
+}
+.proHead{
+  height: 3.25rem;
+  padding: .75rem 1rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  div{
+    padding-left: 2rem;
+    h3{
+      font-weight: 700 ;
+      margin-bottom: 0;
+    }
+    h6{
+      margin: 4px;
+    }
+  }
+}
+.banner{
+  height: 200px ;
+}
+.profileBio{
+  img{
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 4px solid white;
+    top: -2rem;
+  }
+}
